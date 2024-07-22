@@ -1,0 +1,11 @@
+import turtle
+def turt_frac(number, width, spin, offset):
+    for i in range(number):
+        turtle.speed(0)
+        turtle.forward(width)
+        turtle.right(spin)
+        turtle.clone()
+        turtle.circle(10)
+        width += offset
+
+
